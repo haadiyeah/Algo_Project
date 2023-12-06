@@ -139,6 +139,7 @@
     <ClInclude Include="FatimaFunctions.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="matplotlibcpp.h" />
+    <ClInclude Include="MinPriorityQueue.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Staff.h" />
     <ClInclude Include="Student.h" />
