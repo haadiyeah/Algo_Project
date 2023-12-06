@@ -1,0 +1,58 @@
+[
+  {
+    "nodeid": 1,
+    "name": "personname",
+    "type": "student",
+    "edges": [
+      {
+        "nodeid": 2,
+        "edgeType": "mentor"
+      },
+      {
+        "nodeid": 3,
+        "edgeType": "student"
+      }
+    ],
+    "dob": "12/12/2023",
+    "dept": "SE",
+    "degreeProgram": "BS-SE",
+    "batch": "21",
+    "rollNumber": "i21-1216",
+    "cgpa": 3.99
+  },
+
+  {
+    "nodeid": 2,
+    "name": "personname2",
+    "type": "student",
+    "edges": [
+      {
+        "nodeid": 3,
+        "edgeType": "mentor"
+      }
+    ],
+    "dob": "12/12/2023",
+    "dept": "SE",
+    "degreeProgram": "BS-SE",
+    "batch": "21",
+    "rollNumber": "i21-1216",
+    "cgpa": 3.99
+  },
+  {
+    "nodeid": 3,
+    "name": "personname3",
+    "type": "student",
+    "edges": [
+      {
+        "nodeid": 1,
+        "edgeType": "student"
+      }
+    ],
+    "dob": "12/12/2023",
+    "dept": "SE",
+    "degreeProgram": "BS-SE",
+    "batch": "21",
+    "rollNumber": "i21-1216",
+    "cgpa": 3.99
+  }
+]
